@@ -1,0 +1,24 @@
+##########################################
+# Syntax Colouring Map For GOTPIDLoop
+##########################################
+
+##########################################
+# Datatypes (KEYWORD1)
+##########################################
+
+GOTPIDLoop			KEYWORD1
+
+##########################################
+# Methods and Functions (KEYWORD2)
+##########################################
+
+reset				KEYWORD2
+setTuningParameters		KEYWORD2
+setDeadband			KEYWORD2
+setOutputLimited		KEYWORD2
+execute				KEYWORD2
+
+##########################################
+# Constants (LITERAL1)
+##########################################
+
