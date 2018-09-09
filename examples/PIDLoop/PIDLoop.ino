@@ -30,7 +30,7 @@ void loop() {
     }
   }
 
-  //Serial.print("SP:");
+  Serial.print("SP:");
   Serial.print(pid.setpoint);
   Serial.print("\tPV:");
   Serial.print(pid.processVariable);
