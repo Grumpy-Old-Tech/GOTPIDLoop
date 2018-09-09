@@ -111,7 +111,10 @@ void GOTPIDLoop::execute() {
             }
             
             if (revAction) {
-                output = output * -1.0;
+                
+                float opMidValue (outputMax - outputMin) / 2;
+                float valFromMidValue = output - opMidValue;
+                output = opMidValue - valFromMidValue;
             }
         }
     }
